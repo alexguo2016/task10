@@ -1,0 +1,39 @@
+$myTopBottomColor:blue;
+$myTxtColor:#ccc;
+$myButtonColor:red;
+$myGrayBackground:#eee;
+$mainColor:white;
+
+
+*{
+	margin:0;padding:0;
+}
+button{
+	outline:none;
+	border:none;
+	color:white;
+	background-color:blue;
+	height:100%;
+	margin:0 1vw;
+}
+.myContainer{
+				margin:auto;
+				display:flex;
+				justify-content:space-between;
+				width:70%;
+			}
+body{
+	background-color:$mainColor;
+	header{
+		width:100vw;height:18vw;
+		.for-tel{
+			background-color:$myTopBottomColor;
+			color:$mainColor;
+			align-content:center;
+			height:6vw;
+			.tel,.myBtns{
+				line-height:6vw;
+			}
+		}
+	}
+}

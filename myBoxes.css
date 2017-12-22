@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+button {
+  outline: none;
+  border: none;
+  color: white;
+  background-color: blue;
+  height: 100%;
+  margin: 0 1vw; }
+
+.myContainer {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  width: 70%; }
+
+body {
+  background-color: white; }
+  body header {
+    width: 100vw;
+    height: 18vw; }
+    body header .for-tel {
+      background-color: blue;
+      color: white;
+      align-content: center;
+      height: 6vw; }
+      body header .for-tel .tel, body header .for-tel .myBtns {
+        line-height: 6vw; }
+
+/*# sourceMappingURL=myBoxes.css.map */
